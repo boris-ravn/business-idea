@@ -180,7 +180,7 @@ The feedback, in end-user terms:
 - **Process:** interview insights → PRD with acceptance criteria → low-fi wireframes (approved before coding) → implementation by an AI coding agent working from the PRD.
 - **Stack:** Vite, React, TypeScript, Tailwind CSS. No backend: data lives in the browser (localStorage), preloaded with 25 to 30 realistic fictional listings from Cochabamba zones.
 - **Parser:** rule-based extraction (prices in $us and Bs, bedrooms, m², zones, garage, pets, commission…) behind a single interface, so it can be swapped for an LLM later without changing the UI. Covered by unit tests.
-- **Built-in measurement:** local event log (filters used, contacts, publishes, fields detected, shares) and an in-app feedback button.
+- **Built-in measurement:** local event log (filters used, contacts, publishes, fields detected, shares). MVP v1 also had an in-app feedback button; it was removed after iteration 2, and participant feedback is now collected outside the app, in the closing questions of each test session ([session guide](../04-validation/session-guide.md)).
 
 ### 7.4 How it's tested
 - **Moderated sessions of about 15 minutes** with 3 to 5 agents, on their own phones, thinking aloud.

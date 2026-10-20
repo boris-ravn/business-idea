@@ -30,7 +30,7 @@ How the product definition changed after the first prototype round, and why. Ful
 | "Commission and owner authorization should be at the top, not at the bottom." | P1 | **C7** · Collaboration block moved up | — | The Collaboration block now comes right after Availability. |
 | "I'd like to publish what my client is *looking for*." | P2 | Deferred | Nicolás: agents post their clients' requirements and others answer | Not built yet. If real agents use the product mostly for this, it becomes a pivot signal (business plan §9). |
 | "I see very few listings per screen; photos take too much space." | P2 | Deferred | — | Not built yet. |
-| "The feedback button covers information." / Product name placeholder | P2 | Deferred (internal debt) | — | The product name was set to "Real Estate App". |
+| "The feedback button covers information." / Product name placeholder | P2 | Resolved outside PRD v2 | — | The in-app feedback button ("Opinar") was removed: participant feedback is now collected in the closing questions of each [test session](../04-validation/session-guide.md). The product name was set to "Real Estate App". |
 | "Filtering was fast and easy." / "Pasting and having it fill itself was a surprise." | — | Kept as is | — | No change. |
 
 ## What did not change
