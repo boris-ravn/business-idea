@@ -27,7 +27,7 @@ This repository documents the process, from the first idea to a second iteration
 | 5 | **Walkthrough and first demo** | 11 feedback items; key insight: agents share with **two audiences** | [Business plan §5](03-business/business-plan.md#5-prototype-walkthrough-and-feedback) · [Demo video](https://drive.google.com/file/d/1LDSivIeA8RWx8hzJWXJuEHz3vo7leXAY/view?usp=sharing) |
 | 6 | **Iteration 2:** feedback prioritized (P0/P1), PRD v2, wireframes v2, MVP v2 | 7 changes implemented and covered by tests | [PRD evolution](02-product/prd-evolution.md) · [PRD v2](02-product/prd-v2-feedback-iteration.md) · [Wireframes v2](02-product/wireframes/v2.html) |
 | 7 | **Moderated test with real agents** (3 so far) | **Continue:** all signals met the thresholds; adoption depends on supply and freshness | [Validation](04-validation/README.md) · [Session guide](04-validation/session-guide.md) · [Results](04-validation/results.md) |
-| 8 | **Iteration 3:** PRD v3 from the test results | Draft: fields by listing type with "not applicable", confirm before closing, publish again | [PRD v3](02-product/prd-v3-usability-results.md) |
+| 8 | **Iteration 3:** PRD v3 from the test results, wireframes v3, MVP v3 | 3 changes: fields by listing type with "not applicable", confirm before closing and publish again, a clearer prompt to review detected data. Wireframes approved; implementation in progress | [PRD v3](02-product/prd-v3-usability-results.md) · [Wireframes v3](02-product/wireframes/v3.html) |
 
 ## How the idea changed
 
@@ -51,7 +51,7 @@ business-idea/
 │   ├── prd-v2-feedback-iteration.md  Second PRD: changes after feedback
 │   ├── prd-v3-usability-results.md  Third PRD (draft): changes after the test with real agents
 │   ├── prd-evolution.md            What changed from v1 to v2 and why
-│   └── wireframes/                 v1.html and v2.html (open in a browser)
+│   └── wireframes/                 v1.html, v2.html and v3.html (open in a browser)
 ├── 03-business/
 │   └── business-plan.md            Business plan and validation report
 └── 04-validation/

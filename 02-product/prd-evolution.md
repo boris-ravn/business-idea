@@ -13,7 +13,9 @@ How the product definition changed after the first prototype round, and why. Ful
 | 5. Prioritization | This document | Feedback ranked by how much it threatens the riskiest assumptions: **P0** (needed before testing with real agents), **P1** (cheap search and readability fixes) and **P2** (deferred). |
 | 6. PRD v2 | [prd-v2-feedback-iteration.md](prd-v2-feedback-iteration.md) | 7 changes (C1–C7) with acceptance criteria, new metrics and an updated test plan. |
 | 7. Wireframes v2 → MVP v2 | [wireframes v2](wireframes/v2.html), [live MVP](https://mvp-real-estate-app.vercel.app/) | Changed screens approved before coding; all 7 changes implemented and covered by unit tests (85 tests passing). |
-| 8. Real-agent test | PRD v2 §7 | In progress. |
+| 8. Real-agent test | [results](../04-validation/results.md) | 3 agents completed the tasks; all signals on the "continue" side. Publishing asks for fields that don't apply, and closing a listing is too easy and can't be undone later. |
+| 9. PRD v3 | [prd-v3-usability-results.md](prd-v3-usability-results.md) | 3 changes (D1–D3): fields grouped by what applies to each listing type, with a manual "not applicable"; confirm before closing and publish again; a clearer prompt to review detected data. |
+| 10. Wireframes v3 → MVP v3 | [wireframes v3](wireframes/v3.html) | Changed screens approved before coding; implementation in progress. |
 
 ## From feedback to change
 
