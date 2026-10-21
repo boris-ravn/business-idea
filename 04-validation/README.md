@@ -2,7 +2,7 @@
 
 The first prototype feedback came from a heuristic walkthrough, not from real users. This folder documents the experiment that validates MVP v2 with **3 to 5 real agents in Cochabamba**.
 
-**Status:** in progress (October 2026).
+**Status:** first round completed with 3 agents (October 21, 2026). **Verdict: continue.** All signals met the thresholds set in advance; see [results.md](results.md).
 
 ## What this test answers
 
@@ -20,6 +20,7 @@ The success thresholds were set **before** the test, in [PRD v1 §12](../02-prod
 | [session-guide.md](session-guide.md) | Setup checklist, Spanish script with English translation, the 5 tasks, what to observe and closing questions |
 | [participant-template.md](participant-template.md) | Note-taking template; copy it as `participant-N.md` for each session |
 | [results.md](results.md) | Results of all sessions against the thresholds, key findings and the decision |
+| [participant-1.md](participant-1.md), [participant-2.md](participant-2.md), [participant-3.md](participant-3.md) | Notes from each session (P1 includes the exported event log) |
 
 ## Privacy
 
