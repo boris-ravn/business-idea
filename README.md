@@ -26,7 +26,8 @@ This repository documents the process, from the first idea to a second iteration
 | 4 | **Wireframes and MVP v1:** low-fi screens approved, then built by an AI coding agent | Working mobile prototype | [Wireframes v1](02-product/wireframes/v1.html) · [Implementation plan](02-product/implementation-plan-v1.md) |
 | 5 | **Walkthrough and first demo** | 11 feedback items; key insight: agents share with **two audiences** | [Business plan §5](03-business/business-plan.md#5-prototype-walkthrough-and-feedback) · [Demo video](https://drive.google.com/file/d/1LDSivIeA8RWx8hzJWXJuEHz3vo7leXAY/view?usp=sharing) |
 | 6 | **Iteration 2:** feedback prioritized (P0/P1), PRD v2, wireframes v2, MVP v2 | 7 changes implemented and covered by tests | [PRD evolution](02-product/prd-evolution.md) · [PRD v2](02-product/prd-v2-feedback-iteration.md) · [Wireframes v2](02-product/wireframes/v2.html) |
-| 7 | **Moderated test with 3 to 5 real agents** | In progress | [Validation](04-validation/README.md) · [Session guide](04-validation/session-guide.md) · [Results](04-validation/results.md) |
+| 7 | **Moderated test with real agents** (3 so far) | **Continue:** all signals met the thresholds; adoption depends on supply and freshness | [Validation](04-validation/README.md) · [Session guide](04-validation/session-guide.md) · [Results](04-validation/results.md) |
+| 8 | **Iteration 3:** PRD v3 from the test results | Draft: fields by listing type with "not applicable", confirm before closing, publish again | [PRD v3](02-product/prd-v3-usability-results.md) |
 
 ## How the idea changed
 
@@ -48,6 +49,7 @@ business-idea/
 │   ├── prd-v1-mvp.md               First PRD
 │   ├── implementation-plan-v1.md   How MVP v1 was built, phase by phase
 │   ├── prd-v2-feedback-iteration.md  Second PRD: changes after feedback
+│   ├── prd-v3-usability-results.md  Third PRD (draft): changes after the test with real agents
 │   ├── prd-evolution.md            What changed from v1 to v2 and why
 │   └── wireframes/                 v1.html and v2.html (open in a browser)
 ├── 03-business/
@@ -69,6 +71,7 @@ business-idea/
 ## Status (October 2026)
 
 - MVP v2 is implemented: two-mode sharing, a compact publish review, a local-language parser, "Confirm all", HOA fees, a "2+ bedrooms" filter and collaboration terms moved to the top of the listing.
-- **Now:** moderated sessions with 3 to 5 real agents, with success thresholds defined in advance ([validation](04-validation/README.md)). After that comes a 2-week live pilot in a real WhatsApp group to test the riskiest assumption: **will agents keep their listings fresh?**
+- **Done:** a moderated test with 3 real agents. All signals defined in advance point to continue ([results](04-validation/results.md)).
+- **Now:** iteration 3 ([PRD v3](02-product/prd-v3-usability-results.md), draft). After that comes a 2-week live pilot in a real WhatsApp group to test what every participant set as their condition, and the riskiest assumption: **will there be enough listings, and will agents keep them fresh?**
 
 *Author: Boris Martínez*
