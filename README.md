@@ -27,7 +27,8 @@ This repository documents the process, from the first idea to a second iteration
 | 5 | **Walkthrough and first demo** | 11 feedback items; key insight: agents share with **two audiences** | [Business plan §5](03-business/business-plan.md#5-prototype-walkthrough-and-feedback) · [Demo video](https://drive.google.com/file/d/1LDSivIeA8RWx8hzJWXJuEHz3vo7leXAY/view?usp=sharing) |
 | 6 | **Iteration 2:** feedback prioritized (P0/P1), PRD v2, wireframes v2, MVP v2 | 7 changes implemented and covered by tests | [PRD evolution](02-product/prd-evolution.md) · [PRD v2](02-product/prd-v2-feedback-iteration.md) · [Wireframes v2](02-product/wireframes/v2.html) |
 | 7 | **Moderated test with real agents** (3 so far) | **Continue:** all signals met the thresholds; adoption depends on supply and freshness | [Validation](04-validation/README.md) · [Session guide](04-validation/session-guide.md) · [Results](04-validation/results.md) |
-| 8 | **Iteration 3:** PRD v3 from the test results, wireframes v3, MVP v3 | 3 changes: fields by listing type with "not applicable", confirm before closing and publish again, a clearer prompt to review detected data. Wireframes approved; implementation in progress | [PRD v3](02-product/prd-v3-usability-results.md) · [Wireframes v3](02-product/wireframes/v3.html) |
+| 8 | **Iteration 3:** PRD v3 from the test results, wireframes v3, MVP v3 | 3 changes: fields by listing type with "not applicable", confirm before closing and publish again, a clearer prompt to review detected data. Implemented, QA passed | [PRD v3](02-product/prd-v3-usability-results.md) · [Wireframes v3](02-product/wireframes/v3.html) |
+| 9 | **Pilot MVP:** PRD v4, from prototype to a shared backend for a live pilot | Approved: shared data (Supabase), invitation-only access, real photos, server-side metrics and concierge operation; 3-week pilot with 10–20 agents. Wireframes of the new screens next | [PRD v4](02-product/prd-v4-pilot.md) |
 
 ## How the idea changed
 
@@ -49,8 +50,9 @@ business-idea/
 │   ├── prd-v1-mvp.md               First PRD
 │   ├── implementation-plan-v1.md   How MVP v1 was built, phase by phase
 │   ├── prd-v2-feedback-iteration.md  Second PRD: changes after feedback
-│   ├── prd-v3-usability-results.md  Third PRD (draft): changes after the test with real agents
-│   ├── prd-evolution.md            What changed from v1 to v2 and why
+│   ├── prd-v3-usability-results.md  Third PRD: changes after the test with real agents
+│   ├── prd-v4-pilot.md             Fourth PRD: MVP and plan for the live pilot
+│   ├── prd-evolution.md            How the PRD changed across iterations and why
 │   └── wireframes/                 v1.html, v2.html and v3.html (open in a browser)
 ├── 03-business/
 │   └── business-plan.md            Business plan and validation report
@@ -70,8 +72,8 @@ business-idea/
 
 ## Status (October 2026)
 
-- MVP v2 is implemented: two-mode sharing, a compact publish review, a local-language parser, "Confirm all", HOA fees, a "2+ bedrooms" filter and collaboration terms moved to the top of the listing.
+- MVP v3 is implemented: on top of v2 (two-mode sharing, a compact publish review, a local-language parser, "Confirm all", HOA fees, a "2+ bedrooms" filter), it asks only for the fields that apply to each listing type, confirms before closing a listing and can publish it again.
 - **Done:** a moderated test with 3 real agents. All signals defined in advance point to continue ([results](04-validation/results.md)).
-- **Now:** iteration 3 ([PRD v3](02-product/prd-v3-usability-results.md), draft). After that comes a 2-week live pilot in a real WhatsApp group to test what every participant set as their condition, and the riskiest assumption: **will there be enough listings, and will agents keep them fresh?**
+- **Now:** the pilot MVP ([PRD v4](02-product/prd-v4-pilot.md), approved): a shared backend so a real WhatsApp group can use it for 3 weeks. The pilot tests what every participant set as their condition, and the riskiest assumption: **will there be enough listings, and will agents keep them fresh?**
 
 *Author: Boris Martínez*
