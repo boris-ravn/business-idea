@@ -28,7 +28,7 @@ This repository documents the process, from the first idea to a second iteration
 | 6 | **Iteration 2:** feedback prioritized (P0/P1), PRD v2, wireframes v2, MVP v2 | 7 changes implemented and covered by tests | [PRD evolution](02-product/prd-evolution.md) · [PRD v2](02-product/prd-v2-feedback-iteration.md) · [Wireframes v2](02-product/wireframes/v2.html) |
 | 7 | **Moderated test with real agents** (3 so far) | **Continue:** all signals met the thresholds; adoption depends on supply and freshness | [Validation](04-validation/README.md) · [Session guide](04-validation/session-guide.md) · [Results](04-validation/results.md) |
 | 8 | **Iteration 3:** PRD v3 from the test results, wireframes v3, MVP v3 | 3 changes: fields by listing type with "not applicable", confirm before closing and publish again, a clearer prompt to review detected data. Implemented, QA passed | [PRD v3](02-product/prd-v3-usability-results.md) · [Wireframes v3](02-product/wireframes/v3.html) |
-| 9 | **Pilot MVP:** PRD v4, from prototype to a shared backend for a live pilot | Approved: shared data (Supabase), invitation-only access, real photos, server-side metrics and concierge operation; 3-week pilot with 10–20 agents. Wireframes of the new screens next | [PRD v4](02-product/prd-v4-pilot.md) |
+| 9 | **Pilot MVP:** PRD v4, from prototype to a shared backend for a live pilot | Approved: shared data (Supabase), invitation-only access, real photos, server-side metrics and concierge operation; 3-week pilot with 10–20 agents. Wireframes of the new screens approved; implementation next | [PRD v4](02-product/prd-v4-pilot.md) · [Wireframes v4](02-product/wireframes/v4.html) |
 
 ## How the idea changed
 
@@ -53,7 +53,7 @@ business-idea/
 │   ├── prd-v3-usability-results.md  Third PRD: changes after the test with real agents
 │   ├── prd-v4-pilot.md             Fourth PRD: MVP and plan for the live pilot
 │   ├── prd-evolution.md            How the PRD changed across iterations and why
-│   └── wireframes/                 v1.html, v2.html and v3.html (open in a browser)
+│   └── wireframes/                 v1.html to v4.html (open in a browser)
 ├── 03-business/
 │   └── business-plan.md            Business plan and validation report
 └── 04-validation/

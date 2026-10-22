@@ -17,6 +17,7 @@ How the product definition changed after the first prototype round, and why. Ful
 | 9. PRD v3 | [prd-v3-usability-results.md](prd-v3-usability-results.md) | 3 changes (D1–D3): fields grouped by what applies to each listing type, with a manual "not applicable"; confirm before closing and publish again; a clearer prompt to review detected data. |
 | 10. Wireframes v3 → MVP v3 | [wireframes v3](wireframes/v3.html) | Changed screens approved before coding; all 3 changes implemented, covered by tests (111 passing) and verified by a QA pass. |
 | 11. PRD v4 | [prd-v4-pilot.md](prd-v4-pilot.md) | The prototype can't run a live pilot (data lives on each phone). 6 changes (E1–E6): shared data on Supabase, invitation-only access, real photos, server-side metrics, ready for real use, and concierge operation. Pilot: 10–20 agents, 1 week of onboarding and 3 weeks of use, with thresholds set in advance. |
+| 12. Wireframes v4 | [wireframes v4](wireframes/v4.html) | The 10 new screens (sign-in by invitation, profile and terms, privacy notice, real photos, and loading, empty, offline and save-error states) approved before coding. |
 
 ## From feedback to change
 
